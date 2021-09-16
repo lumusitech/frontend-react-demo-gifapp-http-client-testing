@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing on GifGrid.js should match with snapshot along time 1`] = `
+<Fragment>
+  <h3>
+    Hola
+  </h3>
+  <p
+    className="card-grid animate__animated animate__flash"
+  >
+    Loading...
+  </p>
+  <div
+    className="card-grid animate__animated animate__fadeIn animate__delay-1s"
+  />
+</Fragment>
+`;
+
+exports[`Testing on GifGrid.js should shows items when images already loading 1`] = `
+<Fragment>
+  <h3>
+    Hola
+  </h3>
+  <div
+    className="card-grid animate__animated animate__fadeIn animate__delay-1s"
+  >
+    <GifGridItem
+      id={1}
+      key="1"
+      title="Cualquier cosa"
+      url="https://localhost/cualquier/cosa.jpg"
+    />
+    <GifGridItem
+      id={2}
+      key="2"
+      title="otra cosa"
+      url="https://localhost/otra/cosa.jpg"
+    />
+  </div>
+</Fragment>
+`;
